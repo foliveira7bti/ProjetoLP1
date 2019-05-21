@@ -5,8 +5,8 @@
 #include <map>
 #include <fstream>
 #include <iterator>
-#include "MamiferoNativo.h"
 /*
+#include "MamiferoNativo.h"
 #include "MamiferoExotico.h"
 #include "ReptilNativo.h"
 #include "ReptilExotico.h"
@@ -172,7 +172,7 @@ int main()
 
 
 
-	/*
+	
 	for(auto it = listaDeVeterinarios.begin(); it != listaDeVeterinarios.end(); it++)
 	{
 		cout << it->first << it->second << endl;
@@ -181,7 +181,7 @@ int main()
 	for(auto it = listaDeTratadores.begin(); it != listaDeTratadores.end(); it++)
 	{
 		cout << it->first << it->second << endl;
-	}*/
+	}
 
 	return 0;
 }

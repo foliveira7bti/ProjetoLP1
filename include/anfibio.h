@@ -12,7 +12,8 @@ class Anfibio : public Animal
 		int total_de_mudas;
 		string ultima_muda;
 	public:
-		Anfibio(int total_de_mudas_, string ultima_muda_);
+		Anfibio();
+		//Anfibio(int total_de_mudas_, string ultima_muda_);
 		~Anfibio();
 };
 

@@ -9,7 +9,8 @@ class AnimalSilvestre
 	protected:
 		string autorizacao_ibama;
 	public:
-		AnimalSilvestre(string autorizacao_ibama_);
+		AnimalSilvestre();
+		//AnimalSilvestre(string autorizacao_ibama_);
 		~AnimalSilvestre();
 };
 #endif

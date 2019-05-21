@@ -12,7 +12,8 @@ class AnimalExotico : public AnimalSilvestre
 		string pais_origem;
 		string autorizacao;
 	public:
-		AnimalExotico(int id_, string classe_, string nome_cientifico_, char sexo_, double tamanho_, string dieta_, Veterinario veterinario_, Tratador tratador_, string nome_batismo_, string autorizacao_ibama_, string pais_origem_, string autorizacao_);
+		AnimalExotico();
+		//AnimalExotico(int id_, string classe_, string nome_cientifico_, char sexo_, double tamanho_, string dieta_, Veterinario veterinario_, Tratador tratador_, string nome_batismo_, string autorizacao_ibama_, string pais_origem_, string autorizacao_);
 		~AnimalExotico();
 };
 #endif

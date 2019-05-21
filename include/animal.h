@@ -21,7 +21,7 @@ class Animal
 	public:
 		//Construtores e Destrutores
 		Animal();
-		Animal(int id_, string classe_, string nome_cientifico_, char sexo_, double tamanho_, string dieta_, string veterinario_, string tratador_, string nome_batismo_);
+		//Animal(int id_, string classe_, string nome_cientifico_, char sexo_, double tamanho_, string dieta_, string veterinario_, string tratador_, string nome_batismo_);
 		~Animal();
 };
 

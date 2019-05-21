@@ -12,7 +12,8 @@ class Reptil : public Animal
 		bool venenoso;
 		string tipo_veneno;
 	public:
-		Reptil(bool venenoso_, string tipo_veneno_);
+		Reptil();
+		//Reptil(bool venenoso_, string tipo_veneno_);
 		~Reptil();
 };
 

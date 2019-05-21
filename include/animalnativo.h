@@ -12,7 +12,8 @@ class AnimalNativo : public AnimalSilvestre
 		string uf_origem;
 		string autorizacao;
 	public:
-		AnimalNativo(int id_, string classe_, string nome_cientifico_, char sexo_, double tamanho_, string dieta_, string veterinario_, string tratador_, string nome_batismo_, string ibama, string uf_origem_, string autorizacao_);
+		AnimalNativo();
+		//AnimalNativo(int id_, string classe_, string nome_cientifico_, char sexo_, double tamanho_, string dieta_, string veterinario_, string tratador_, string nome_batismo_, string ibama, string uf_origem_, string autorizacao_);
 		~AnimalNativo();
 };
 #endif

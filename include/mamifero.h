@@ -9,7 +9,8 @@ class Mamifero : public Animal
 	protected:
 		string cor_pelo;
 	public:
-		Mamifero(string cor_pelo_);
+		Mamifero();
+		//Mamifero(string cor_pelo_);
 		~Mamifero();
 };
 
